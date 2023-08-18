@@ -49,6 +49,9 @@ public class ChatManager : MonoBehaviour
     public Text tx1;
     public Text tx2;
 
+    // 배경 리스트
+    private string[] backgroundlist = new string[] { "LINE", "CLASS", "FOOD", "SUNSETALLEY", "NIGHTMARE", "BLO", "GROUND", "SUMMERLINE", "SUMMERNIGHT", "SUNSETLINE" };
+
     IEnumerator setWaitT()
     {
         print("setWaitT");
@@ -102,6 +105,22 @@ public class ChatManager : MonoBehaviour
     }
 
     int mode = 0;
+
+    private void Changebackground()
+    {
+        for(int i = 0; i<backgroundlist.Length; i++)
+        {
+            if (datas.story[NextIndex].SubInfo == backgroundlist[i].ToString())
+            {
+                BG.color = new Color(1, 1, 1, 1);
+                BG.sprite = BGS[i];
+                return;
+            }
+        }
+        BG.color = new Color(0, 0, 0, 255 / 255f);
+        return;
+    }
+
     private void Next()
     {
         // 인물
@@ -138,60 +157,7 @@ public class ChatManager : MonoBehaviour
         }
 
         // 배경
-        if (datas.story[NextIndex].SubInfo == "LINE")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[0];
-        }
-        else if (datas.story[NextIndex].SubInfo == "CLASS")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[1];
-        }
-        else if (datas.story[NextIndex].SubInfo == "FOOD")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[2];
-        }
-        else if (datas.story[NextIndex].SubInfo == "SUNSETALLEY")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[3];
-        }
-        else if (datas.story[NextIndex].SubInfo == "NIGHTLINE")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[4];
-        }
-        else if (datas.story[NextIndex].SubInfo == "BLO")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[5];
-        }
-        else if (datas.story[NextIndex].SubInfo == "GROUND")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[6];
-        }
-        else if (datas.story[NextIndex].SubInfo == "SUMMERLINE")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[7];
-        }
-        else if (datas.story[NextIndex].SubInfo == "SUMMERNIGHT")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[8];
-        }
-        else if (datas.story[NextIndex].SubInfo == "SUNSETLINE")
-        {
-            BG.color = new Color(1, 1, 1, 1);
-            BG.sprite = BGS[9];
-        }
-        else
-        {
-            BG.color = new Color(0, 0, 0, 255 / 255f);
-        }
+        Changebackground();
 
         if(datas.story[NextIndex].Code == "NARRATION")
         {

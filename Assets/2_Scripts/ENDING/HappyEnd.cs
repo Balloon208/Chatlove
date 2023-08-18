@@ -90,7 +90,6 @@ public class HappyEnd : MonoBehaviour
         Next();
     }
 
-    int mode = 0;
     private void Next()
     {
         // ¿Œπ∞
