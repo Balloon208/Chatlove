@@ -1,8 +1,8 @@
 {
-  "happy": [
+  "story": [
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "TALK",
@@ -10,7 +10,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "TALK",
@@ -18,7 +18,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "TALK",
@@ -26,7 +26,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "SMILE",
@@ -34,7 +34,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "TALK",
@@ -42,7 +42,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "EMBARRASSMENT",
@@ -50,7 +50,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "TALK",
@@ -58,7 +58,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "EMBARRASSMENT",
@@ -66,7 +66,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "TALK",
@@ -74,7 +74,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "SMILE",
@@ -82,7 +82,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "SMILE",
@@ -90,7 +90,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": null,
       "SubContents": null,
@@ -98,7 +98,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": null,
       "SubContents": null,
@@ -106,7 +106,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": null,
       "SubContents": null,
@@ -114,7 +114,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -122,7 +122,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -130,7 +130,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -138,7 +138,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "LINE",
       "SubContents": "SMILE",
@@ -146,7 +146,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -154,7 +154,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -162,7 +162,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -170,7 +170,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": null,
       "SubContents": null,
@@ -178,7 +178,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -186,7 +186,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -194,7 +194,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "LINE",
       "SubContents": null,
@@ -202,7 +202,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "LINE",
       "SubContents": null,
@@ -210,7 +210,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -218,7 +218,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -226,7 +226,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -234,7 +234,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "LINE",
       "SubContents": "TALK",
@@ -242,7 +242,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "LINE",
       "SubContents": "SMILE",
@@ -250,7 +250,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "NIGHTLINE",
       "SubContents": null,
@@ -258,7 +258,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "NIGHTLINE",
       "SubContents": "SMILE",
@@ -266,7 +266,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "SMILE",
@@ -274,7 +274,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "NIGHTLINE",
       "SubContents": null,
@@ -282,7 +282,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "SMILE",
@@ -290,7 +290,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "NIGHTLINE",
       "SubContents": "TALK",
@@ -298,7 +298,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "NIGHTLINE",
       "SubContents": null,
@@ -306,7 +306,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "NIGHTLINE",
       "SubContents": null,
@@ -314,7 +314,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "IDLE",
@@ -322,7 +322,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "TALK",
@@ -330,7 +330,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "NIGHTLINE",
       "SubContents": "TALK",
@@ -338,7 +338,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "TALK",
@@ -346,7 +346,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "NIGHTLINE",
       "SubContents": "FLUTTER",
@@ -354,7 +354,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "TALK",
@@ -362,7 +362,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "NIGHTLINE",
       "SubContents": "TALK",
@@ -370,7 +370,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "NIGHTLINE",
       "SubContents": "FLUTTER",
@@ -378,7 +378,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "NIGHTLINE",
       "SubContents": null,
@@ -386,7 +386,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": null,
       "SubContents": null,
@@ -394,7 +394,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "SMILE",
@@ -402,7 +402,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "SMILE",
@@ -410,7 +410,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -418,7 +418,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "SMILE",
@@ -426,7 +426,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "BLO",
       "SubContents": null,
@@ -434,7 +434,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "SMILE",
@@ -442,7 +442,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -450,7 +450,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -458,7 +458,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -466,7 +466,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -474,7 +474,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "EMBARRASSMENT",
@@ -482,7 +482,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -490,7 +490,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "BLO",
       "SubContents": null,
@@ -498,7 +498,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -506,7 +506,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -514,7 +514,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -522,7 +522,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "SMILE",
@@ -530,7 +530,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -538,7 +538,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "FLUTTER",
@@ -546,7 +546,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "FLUTTER",
@@ -554,7 +554,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "EMBARRASSMENT",
@@ -562,7 +562,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "BLO",
       "SubContents": "TALK",
@@ -570,7 +570,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "BLO",
       "SubContents": "FLUTTER",
@@ -578,7 +578,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "5",
+      "Flag": "0",
       "Info": [
         "한예설",
         "김민준"
