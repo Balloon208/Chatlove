@@ -1,8 +1,8 @@
 {
-  "bad": [
+  "story": [
     {
       "Code": "TALK",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "ANGRY",
@@ -10,7 +10,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "EMBARRASSMENT",
@@ -18,7 +18,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "ANGRY",
@@ -26,7 +26,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "김민준",
       "SubInfo": "CLASS",
       "SubContents": "ANGRY",
@@ -34,7 +34,7 @@
     },
     {
       "Code": "TALK",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "한예설",
       "SubInfo": "CLASS",
       "SubContents": "ANGRY",
@@ -42,7 +42,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -50,7 +50,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -58,7 +58,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "CLASS",
       "SubContents": null,
@@ -66,7 +66,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": null,
       "SubContents": null,
@@ -74,7 +74,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "SUNSETLINE",
       "SubContents": null,
@@ -82,7 +82,7 @@
     },
     {
       "Code": "NARRATION",
-      "Flag": "3",
+      "Flag": "0",
       "Info": "나래이션",
       "SubInfo": "SUNSETLINE",
       "SubContents": null,

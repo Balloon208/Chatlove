@@ -9,7 +9,7 @@ public class ChatManager : MonoBehaviour
 {
     // 데이터!
     public TextAsset data;
-    private AllData datas;
+    protected AllData datas;
     //김민준, 강예원, 한예설
     public List<string> cName = new List<string>() { "김민준", "강예원", "한예설" };
 
@@ -34,25 +34,24 @@ public class ChatManager : MonoBehaviour
     public KeyCode NextInput;
 
     // 인덱스 관리!
-    private int NextIndex = 0;
+    protected int NextIndex = 0;
 
     // 애니메이션
     public Animator CharacterPanel;
     public Animator BranchPanel1;
     public Animator BranchPanel2;
 
-    bool isAction;
-    bool onBranch1;
-    bool onBranch2;
-    bool checkBranch;
+    protected bool onBranch1;
+    protected bool onBranch2;
+    protected bool checkBranch;
 
     public Text tx1;
     public Text tx2;
 
     // 배경 리스트
-    private string[] backgroundlist = new string[] { "LINE", "CLASS", "FOOD", "SUNSETALLEY", "NIGHTMARE", "BLO", "GROUND", "SUMMERLINE", "SUMMERNIGHT", "SUNSETLINE" };
+    protected string[] backgroundlist = new string[] { "LINE", "CLASS", "FOOD", "SUNSETALLEY", "NIGHTMARE", "BLO", "GROUND", "SUMMERLINE", "SUMMERNIGHT", "SUNSETLINE", "SIBAL" };
 
-    IEnumerator setWaitT()
+    private IEnumerator setWaitT()
     {
         print("setWaitT");
         CharacterPanel.SetBool("isShow", true);
@@ -62,7 +61,7 @@ public class ChatManager : MonoBehaviour
         BranchPanel2.SetBool("isBranch", true);
     }
 
-    IEnumerator setWaitF()
+    private IEnumerator setWaitF()
     {
         print("setWaitF");
         yield return new WaitForSeconds(0.7f);
@@ -73,8 +72,8 @@ public class ChatManager : MonoBehaviour
         CharacterPanel.SetBool("isShow", false);
     }
 
-    float timer = 0;
-    IEnumerator Timer()
+    protected float timer = 0;
+    protected IEnumerator Timer()
     {
         while (true)
         {
@@ -84,7 +83,7 @@ public class ChatManager : MonoBehaviour
         }
     }
 
-    private void Awake()
+    protected void Awake()
     {
         datas = JsonUtility.FromJson<AllData>(data.text);
 
@@ -99,14 +98,14 @@ public class ChatManager : MonoBehaviour
 
     
 
-    private void Update()
+    protected void Update()
     {
         Next();
     }
 
-    int mode = 0;
+    protected int mode = 0;
 
-    private void Changebackground()
+    protected void Changebackground()
     {
         for(int i = 0; i<backgroundlist.Length; i++)
         {
@@ -121,7 +120,24 @@ public class ChatManager : MonoBehaviour
         return;
     }
 
-    private void Next()
+
+    protected virtual void End()
+    {
+        // 호감도 넣기..
+        if (PlayerStatus.friendshiplevel >= 80)
+        {
+            SceneManager.LoadScene("PlayingGameEndingHAPPY");
+        }
+        else if (PlayerStatus.friendshiplevel >= 40)
+        {
+            SceneManager.LoadScene("PlayingGameEndingNORMAL");
+        }
+        else if (PlayerStatus.friendshiplevel < 40)
+        {
+            SceneManager.LoadScene("PlayingGameEndingBAD");
+        }
+    }
+    protected void Next()
     {
         // 인물
         if (datas.story[NextIndex].Info == "나래이션")
@@ -326,23 +342,11 @@ public class ChatManager : MonoBehaviour
         }
         else if(datas.story[NextIndex+1].Code == "END")
         {
-            // 호감도 넣기..
-            if(PlayerStatus.friendshiplevel >= 80)
-            {
-                SceneManager.LoadScene("PlayingGameEndingHAPPY");
-            }
-            else if(PlayerStatus.friendshiplevel >= 40)
-            {
-                SceneManager.LoadScene("PlayingGameEndingNORMAL");
-            }
-            else if(PlayerStatus.friendshiplevel < 40)
-            {
-                SceneManager.LoadScene("PlayingGameEndingBAD");
-            }
+            End();
         }
     }
 
-    void PrintText()
+    protected void PrintText()
     {
         TextName.text = datas.story[NextIndex].Info;
         TextSentence.SetMsg(datas.story[NextIndex].Contents);
